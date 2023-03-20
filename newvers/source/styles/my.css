@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, serif;
+    background: linear-gradient(319deg, #CA5CBE 0%, #71B3CE 100%);
+}
+p {
+    color: white;
+}
+
+.nav-link {
+    color: rgb(136, 203, 206);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(136, 131, 131);
+}
+
+.navbar-nav>li>a:hover {
+color: #CA5CBE;
+}
+.contacts>li>a:hover {
+    color: #CA5CBE;
+}
+
+.contacts {
+    display: flex;
+}
+.contacts-menu {
+    display: none;
+}
+
+.contacts:hover .contacts-menu {
+    display: flex;
+}
+
+.navbar-brand img {
+width: 30px;
+}
+
+.navbar-toggler {
+    color: rgb(12, 12, 12);
+   background-color: rgb(136, 131, 131);
+}
+
+    
+   
+
+.zzz {
+    height: 300px;  
+}
+.fixit>p {
+    font-size: 25px;
+}
+
+.sidebar {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+
+    background: linear-gradient(244deg, #ECA3E3 0%, #31A2C5 68%, #46AFE6 100%);
+}
+
+.card {
+    color: white;
+    background: linear-gradient(244deg, #ECA3E3 0%, #31A2C5 68%, #46AFE6 100%);
+}
+
+
+.xxx {
+    width: auto auto;
+    height: 500px;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+footer,
+.btn-outline-light {
+     background: linear-gradient(244deg, #ECA3E3 0%, #31A2C5 68%, #46AFE6 100%);
+}
+.slidetext {
+    font-size: 30px !important;
+}
+.slidetext, 
+.footer-text {
+    color: white;
+    margin: auto auto;
+    font-size: 24px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.call {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px)  {
+   .carousel-indicators {
+    display: none;
+   } 
+}
